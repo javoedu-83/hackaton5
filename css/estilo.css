@@ -1,0 +1,202 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #595959;
+}
+
+.PrimeraSeccion {
+    min-height: 100vh;
+
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1300px;
+
+}
+
+.logo{
+    background-image: url(https://www.pngkey.com/png/full/223-2232468_remax-logotype-white-web-re-max-logo-white.png);
+    background-size: cover;
+    width: 80px;
+    height: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+}
+
+.Navigation {
+    width: 40%;
+}
+
+.navigationlist {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.boton1 {
+    background-color: #05a79a;
+    border-radius: 2px;
+    border: 0;
+    padding: 13px;
+    padding-left: 26px;
+    padding-right: 26px;
+    color: white;
+    font-size: 14px;
+}
+
+.banner {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.bannercontenido {
+    margin: 0 auto;
+
+}
+
+.bannerimagen {
+    border: #04a9a2 2px solid;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin:0 auto;
+}
+
+.bannercontenido h1{
+    font-size: 50px;
+    color: white;
+    font-weight: 10;
+    line-height: 1;
+}
+
+.bannercontenido p{
+    color: #828282;
+    font-size: 13px;
+    padding-bottom: 50px;
+}
+
+.boton2 {
+    border: #4a4a4a 2px solid;
+    padding: 13px;
+    padding-left: 26px;
+    padding-right: 26px;
+    color: white;
+    font-size: 14px;
+
+}
+
+.boton2:hover {
+    background:#00b09b;
+    border: black 2px solid;
+}
+
+.SegundaSeccion {
+    background: #111a19;
+    margin: 0 auto;
+    padding: 50px;
+    max-width: 1290px;
+    min-height: 650px;
+ 
+}
+
+.segundaseccioncontenido {
+    margin: 0 auto;
+}
+
+.contenedoriconos{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    margin: 0 auto;
+    width: 200px;
+    padding-top: 50px;
+}
+
+.icono1 {
+    border: #04a9a2 1px solid;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+
+
+.contenido2 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contenido2 h2{
+    color: #a2a8a8;
+    font-size: 17px;
+    font-weight: normal;
+    padding-top: 3em;
+}
+
+.enlace1 {
+    color: #00b09b;
+    font-size: 12px;
+    font-weight: normal;
+    padding-top: 3em;
+}
+
+.separador{
+    width: 180px;
+    height: 1px;
+    background: #314745;
+    margin: 0 auto;
+    margin-top: 70px;
+
+}
+
+.valores {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    padding-top: 3em;
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+.valoresnumeros h3{
+    font-size: 35px;
+    color: #a5abab;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: -5px;
+}
+
+.valoresnumeros p{
+    font-size: 10px;
+    color: #a5abab;
+    text-align: center;
+    font-weight: normal;
+}
