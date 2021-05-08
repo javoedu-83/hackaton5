@@ -200,3 +200,37 @@ a{
     text-align: center;
     font-weight: normal;
 }
+
+.TerceraSeccion{
+    
+    margin: 0 auto;
+
+}
+
+
+.TerceraSeccion p{
+    color: #4a4a4a;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.marcas {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    margin: 0 auto;
+    width: 200px;
+    padding-top: 50px;
+ 
+}
+
+.icono2 {
+    border: #04a9a2 1px solid;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    
+}
